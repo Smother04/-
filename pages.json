@@ -1,0 +1,148 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/zhongcao/zhongcao",
+			"style": {
+				"navigationBarTitleText": "种草",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFD719"
+			}
+		},{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+        },{
+            "path" : "pages/search/searchGoodList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/meetroom/meetroom",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "爆品狂欢",
+                "enablePullDownRefresh": false,
+				"disableScroll": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/familytrip/familytrip",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "南昌周边亲子游",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tripUnlike/tripUnlike",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "游点不一样",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布种草",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/readMsg/readMsg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/credits/credits",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分签到",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "black",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "24rpx",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home/home.png",
+				"selectedIconPath": "static/home/home@2x.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/home/组 6419.png",
+				"selectedIconPath": "static/home/组 6419@2x.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/zhongcao/zhongcao",
+				"iconPath": "static/home/组 6420.png",
+				"selectedIconPath": "static/home/组 6420@2x.png",
+				"text": "种草"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/home/mine.png",
+				"selectedIconPath": "static/home/mine@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}

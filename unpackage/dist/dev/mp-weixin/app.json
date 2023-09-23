@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/zhongcao/zhongcao",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/search/searchGoodList",
+    "pages/meetroom/meetroom",
+    "pages/familytrip/familytrip",
+    "pages/tripUnlike/tripUnlike",
+    "pages/publish/publish",
+    "pages/readMsg/readMsg",
+    "pages/credits/credits"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "24rpx",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home/home.png",
+        "selectedIconPath": "static/home/home@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/home/组 6419.png",
+        "selectedIconPath": "static/home/组 6419@2x.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/zhongcao/zhongcao",
+        "iconPath": "static/home/组 6420.png",
+        "selectedIconPath": "static/home/组 6420@2x.png",
+        "text": "种草"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/home/mine.png",
+        "selectedIconPath": "static/home/mine@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
